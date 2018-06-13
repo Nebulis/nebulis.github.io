@@ -1,0 +1,192 @@
+
+body {
+  font-size: 13px;
+  font-weight: 400;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+
+/* Custom */
+
+#text-header h1 span {
+  color: #334960 !important;
+  opacity: 0.7 !important;
+}
+
+.box h2{
+  color: #227c74 !important;
+  font-size: 1.5em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+
+.contact-item .icon {
+  padding: 10px !important;
+  border-right: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+  color: #32475c !important;
+  background: #eee !important;
+}
+
+.job .details {
+  margin-left: 3% !important;
+  width: 95% !important;
+  padding: 10px !important;
+  margin-bottom: 10px !important;
+  background: #eee !important;
+  border-bottom: 1px solid #ccc !important;
+  border-right: 1px solid #ccc !important;
+}
+
+.list-group-item {
+  position: relative !important;
+  list-style-type: none !important;
+  display: block !important;
+  padding: 10px 15px !important;
+  margin-bottom: -1px !important;
+  background-color: #fff !important;
+  border: 1px solid #ddd !important;
+}
+
+#awards .description, #education .description {
+  width: 83% !important;
+  display: inline-block !important;
+  background: #eee !important;
+  margin-bottom: 10px !important;
+  position: relative !important;
+  padding: 10px !important;
+  border-bottom: 1px solid #ccc !important;
+  border-right: 1px solid #ccc !important;
+}
+
+#awards .year, #education .year {
+  width: 17% !important;
+  background: #fff !important;
+  font-weight: 700 !important;
+  display: inline-block !important;
+}
+
+#awards:before, #education:before {
+  width: 5px !important;
+  height: 100% !important;
+  position: absolute !important;
+  left: 35px !important;
+  top: 0 !important;
+  content: ' ' !important;
+  display: block !important;
+  background: #32475c !important;
+  background: -moz-linear-gradient(top, #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff)) !important;
+  background: -webkit-linear-gradient(top, #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%) !important;
+  background: -o-linear-gradient(top, #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%) !important;
+  background: -ms-linear-gradient(top, #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%) !important;
+  background: linear-gradient(to bottom, #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ) !important;
+}
+
+.item-interests, .item-skills {
+  height: 30px !important;
+  color: #334960 !important;
+  padding: 5px 10px !important;
+  margin-bottom: 5px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+}
+
+.interest, .skill {
+  color: #fff !important;
+  display: inline-block !important;
+  margin-right: 5px !important;
+  margin-bottom: 5px !important;
+  padding: 5px 10px !important;
+  background: #32475c !important;
+  position: relative !important;
+  font-size: .85em !important;
+}
+.badge {
+  display: inline-block !important;
+  min-width: 10px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  color: #fff !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  border-radius: 10px !important;
+}
+
+.languages.box .list-group-item {
+  padding-right: 0px !important;
+}
