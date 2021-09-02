@@ -1,0 +1,138 @@
+{
+  "basics": {
+    "name": "Laurent Maillet",
+    "label": "Senior Tech Lead & Trainer",
+    "picture": "me.png",
+    "email": "nebounet@gmail.com",
+    "phone": "(+65) 81549622",
+    "summary": "J'ai été impliqué dans de nombreuses missions utilisant à la fois des nouvelles technologies et des plus anciennes. J'utilise ces expériences pour faire correspondre les besoins des entreprises aux exigences techniques, tout en suivant les meilleures pratiques en matière de développement de logiciels. J'aime être impliqué dans chaque partie du développement d'une application, y compris le développement de fonctionnalités/outils, la mise en place de processus et de bonnes pratiques (TDD, revues de code, programmation par pairs), la réduction du temps de mise sur le marché (CI/CD, principes Devops), etc. En tant que formateur, j'aime partager mes connaissances et mes expériences. En tant que développeur, je suis impatient d'apprendre de nouvelles choses tous les jours, c'est pourquoi vous pouvez me rencontrer lors de meetups ou de conférences, souvent en tant que participant et parfois en tant que speaker.",
+    "networks": [
+      {
+        "name": "twitter",
+        "username": "Nebounet",
+        "url": "https://twitter.com/Nebounet"
+      },
+      {
+        "name": "github",
+        "username": "Nebulis",
+        "url": "https://github.com/Nebulis"
+      },
+      {
+        "name": "linkedin",
+        "username": "Laurent Maillet",
+        "url": "https://www.linkedin.com/in/laurent-maillet-81232aaa/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Govtech - Singapore",
+      "position": "Senior Team Lead",
+      "startDate": "2018-12-01",
+      "highlights": [
+        "Responsable du développement, des choix techniques et stratégiques, de l'établissement de normes de qualité (CI/CD, code, revues, etc.), du recrutement, du partage avec la communauté, etc. au sein de l'équipe DLT (Distributed Ledger Technology)",
+        "Nous avons créé <a href=\"https://openattestation.com/\">OpenAttestation</a> un framework open source pour créer des certificats vérifiables (verifiable document) et des enregistrements transférables (Transferable Records), permettant de prouver cryptographiquement l'origine de l'émetteur et le transfert entre plusieurs parties.",
+        "En utilisant OpenAttestation, notre équipe a créé :<br/>- <a href=\"https://opencerts.io/\">OpenCerts</a> (PST award): Certificats numériques pour les étudiants (diplômes).<br/>- <a href=\"https://www.healthcerts.gov.sg/\">HealthCerts</a>: Certificats numériques pour les voyageurs<br/>- <a href=\"https://verify.gov.sg/\">Verify</a>: Plateforme pour vérifier les certificats émis par le gouvernement singapourien<br/>- <a href=\"https://www.tradetrust.io/\">TradeTrust</a> (PST award): Plateforme pour les documents commerciaux numériques<br/> - <a href=\"https://www.notarise.gov.sg/\">Notarise</a>: Portail délivrant des certificats liés à la santé",
+        "Technologies utilisées: Ethereum, Solidity, Javascript, Typescript, React, and AWS"
+      ]
+    },
+    {
+      "company": "Zenika - Singapore",
+      "position": "Software Engineer, Consultant & Trainer",
+      "startDate": "2017-01-01",
+      "endDate": "2018-12-01",
+      "highlights": [
+        "Nous avons construit le nouveau module d'authentification afin d'accompagner les nouveaux projets de BNP Paribas Wealth Management. Le projet impliquait la mise en place d'une nouvelle pile technique et la mise en place de nouvelles pratiques au sein de l'ensemble de l'organisation en utilisant Spring Boot, Java 8, Git et TDD",
+        "Création du nouveau portail d'emploi <a href=\"https://www.mycareersfuture.gov.sg/\">MyCareersFuture</a> pour connecter les demandeurs d'emploi et les entreprises pour Govtech Singapour. Technologies utilisées : React, Node.JS, Typescript, Kotlin, GraphQL",
+        "Animation de formations sur TDD et Angular",
+        "Speaker à <a href=\"https://www.meetup.com/fr-FR/singajug/events/245218392/\">SingaJUG</a> et <a href=\"https://www.youtube.com/watch?v=x7j6KeQgZ6k\">Voxxed Days Singapore</a>"
+      ]
+    },
+    {
+      "company": "Zenika - Nantes, France",
+      "position": "Software Engineer, Consultant & Trainer",
+      "startDate": "2015-03-01",
+      "endDate": "2017-01-01",
+      "highlights": [
+        "Création de l'Architecture et application front de l'outil d'éco-conception fourni par <a href=\"https://greenspector.com/\">Greenspector</a> pour les développeurs. Technologies utilisées : Angular 1, NodeJS, Go, Android, Redis, Java 7, Ansible.",
+        "<b>Sparklane</b> est une startup française qui recherche des informations et les rend facilement disponibles pour les vendeurs et les marketeurs. Technologies utilisées : Angular 1, ElasticSearch, Docker, Groovy, Java 8.",
+        "<b>GE Money Bank</b> est l'unité de services bancaires de General Electric. Notre équipe a développé une application Web afin de réduire le temps de validation ou de rejet des prêts. Nous avons travaillé directement avec les analystes pour comprendre leurs besoins et la façon dont ils travaillaient afin d'améliorer leur productivité. Technologies utilisées : React, Docker, Java 7.",
+        "<b>CACEIS</b> est une banque de gestion d'actifs spécialisée dans les fonctions post-marché. Notre équipe a développé une application mobile, Olis Mobile, qui a remporté un prix de l'innovation décerné par Global Custodian. Technologies utilisées : Angular, Ionic 2",
+        "Animation de <b>formations</b> sur Javascript, Typescript, Angular (1&2), React and NodeJS",
+        "Speaker à <a href=\"http://nantesjs.org/\">NantesJS meetup</a> et <a href=\"https://web2day.co/2016/evenements/bien-preparer-migration-vers-angular-2/\">Web2day</a>"
+      ]
+    },
+    {
+      "company": "Sopra - Nantes, France",
+      "position": "IT Software Engineer",
+      "startDate": "2011-03-01",
+      "endDate": "2015-03-01",
+      "highlights": [
+        "Développeur principal sur l'application pour la DGDDI (Département des douanes) appelée <b>NSTI</b> basée sur des vieilles technologies (COBOL, GCOS7, C, ASP.NET) et les technologies J2EE. L'application devait suivre strictement les règles fournies par la Commission européenne",
+        "Développeur principal sur des applications internes déployées dans toute l'entreprise et utilisée par les managers. Technologies utilisées : PHP et J2EE",
+        "Développeur dans le pôle modernisation d'applications legacy, utilisant Bluage."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université of Avignon",
+      "area": "Informatique et Mathématiques",
+      "studyType": "Licence",
+      "startDate": "2005-09-01",
+      "endDate": "2007-06-01"
+    },
+    {
+      "institution": "Université du Languedoc (Montpellier II)",
+      "area": "Informatique",
+      "studyType": "Licence & Master",
+      "startDate": "2007-09-01",
+      "endDate": "2010-06-01"
+    },
+    {
+      "institution": "Université de Nantes",
+      "area": "Informatique",
+      "studyType": "Master",
+      "startDate": "2010-09-01",
+      "endDate": "2011-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement web",
+      "keywords": ["Javascript", "React", "Typescript", "Angular", "NodeJS"]
+    },
+    {
+      "name": "Développement",
+      "keywords": ["Java", "Kotlin", "Spring", "Go"]
+    },
+    {
+      "name": "Autres",
+      "keywords": ["Docker", "Git", "GraphQL", "Ethereum"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Compétence professionnelle avancée"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": ["Football", "Vélo", "Tennis"]
+    },
+    {
+      "name": "Mangas",
+      "keywords": []
+    },
+    {
+      "name": "Voyages",
+      "keywords": ["Treks", "Tourisme"]
+    }
+  ]
+}

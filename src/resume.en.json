@@ -1,0 +1,138 @@
+{
+  "basics": {
+    "name": "Laurent Maillet",
+    "label": "Senior Tech Lead & Trainer",
+    "picture": "me.png",
+    "email": "nebounet@gmail.com",
+    "phone": "(+65) 81549622",
+    "summary": "I have been involved in many missions using both legacy and new technologies. I use those experiences to match business needs with technical requirements while following best practices in software development. I like being involved in every part of the development of an application including developing features/tools, setting up processes and best practices (TDD, Code reviews, Pair programming), reducing time to market (CI/CD, Devops principles), etc. As a trainer I'm always keen to share about my knowledge and experiences. As a developer I'm eager to learn new things everyday that's why you can meet me in meetups or conferences often as attendee and sometimes as speaker.",
+    "networks": [
+      {
+        "name": "twitter",
+        "username": "Nebounet",
+        "url": "https://twitter.com/Nebounet"
+      },
+      {
+        "name": "github",
+        "username": "Nebulis",
+        "url": "https://github.com/Nebulis"
+      },
+      {
+        "name": "linkedin",
+        "username": "Laurent Maillet",
+        "url": "https://www.linkedin.com/in/laurent-maillet-81232aaa/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Govtech - Singapore",
+      "position": "Senior Team Lead",
+      "startDate": "2018-12-01",
+      "highlights": [
+        "Responsible for full stack development, tech strategy & decision making, mentorship, setting standards for CI/CD and code quality practices, hiring, interacting with the community, etc. in the Distributed Ledger Technology Team",
+        "We created <a href=\"https://openattestation.com/\">OpenAttestation</a> an open-source framework for verifiable documents and transferable records.<br/>- A verifiable document (or verifiable credential) is a tamper-evident document that cryptographically proves who issued it.<br/>- Transferable Records are documents that extend on Verifiable Documents which allows for the document ownership to be part of the immutable ledger.",
+        "Using OpenAttestation our team created:<br/>- <a href=\"https://opencerts.io/\">OpenCerts</a> (PST award): Educational credentials.<br/>- <a href=\"https://www.healthcerts.gov.sg/\">HealthCerts</a>: Provide travelers with easily verifiable digital certificates<br/>- <a href=\"https://verify.gov.sg/\">Verify</a>: Platform to verify credentials issued by the Singaporean government<br/>- <a href=\"https://www.tradetrust.io/\">TradeTrust</a> (PST award): Platform for digital trade documents.<br/> - <a href=\"https://www.notarise.gov.sg/\">Notarise</a>: Portal to issue health certificates",
+        "Tech stack: Ethereum, Solidity, Javascript, Typescript, React, and AWS"
+      ]
+    },
+    {
+      "company": "Zenika - Singapore",
+      "position": "Software Engineer, Consultant & Trainer",
+      "startDate": "2017-01-01",
+      "endDate": "2018-12-01",
+      "highlights": [
+        "BNP Paribas is a French Bank. Our team built the new authentication module in order to support new projects for BNP Paribas Wealth Management. The project involved the implementation of a new technical stack and setting up new practices within the whole organization using Spring Boot, Java 8, Git and TDD",
+        "Built the new job portal <a href=\"https://www.mycareersfuture.gov.sg/\">MyCareersFuture</a> to connect jobseekers and companies for Govtech, the \"operating system\" of Singapore government. Technologies used: React, Node.JS, Typescript, Kotlin, GraphQL",
+        "Conducted trainings on TDD and Angular",
+        "Speaker at <a href=\"https://www.meetup.com/fr-FR/singajug/events/245218392/\">SingaJUG</a> and <a href=\"https://www.youtube.com/watch?v=x7j6KeQgZ6k\">Voxxed Days Singapore</a>"
+      ]
+    },
+    {
+      "company": "Zenika - Nantes, France",
+      "position": "Software Engineer, Consultant & Trainer",
+      "startDate": "2015-03-01",
+      "endDate": "2017-01-01",
+      "highlights": [
+        "Built architecture and frontend application of eco-design tool provided by <a href=\"https://greenspector.com/\">Greenspector</a> for developers. Technologies used: Angular 1, NodeJS, Go, Android, Redis, Java 7, Ansible.",
+        "<b>Sparklane</b> is a French startup crawling information and making them easily available for salesman and marketman. Technologies used: Angular 1, ElasticSearch, Docker, Groovy, Java 8.",
+        "<b>GE Money Bank</b> is the bank services unit of General Electric. Our team built a web application for salesman to reduce the time to validate or reject loans. We worked with salesman directly to understand their business and the way they worked to understand how our application should be built to improve their productivity.Technologies used: React, Docker, Java 7.",
+        "<b>CACEIS</b> is an asset servicing bank specialising in post-trade functions. Our team developed a mobile application, Olis Mobile, who won an innovation award delivered by Global Custodian. Technologies used: Angular, Ionic 2",
+        "Conducted <b>trainings</b> on Javascript, Typescript, Angular (1&2), React and NodeJS",
+        "Speaker at <a href=\"http://nantesjs.org/\">NantesJS meetup</a> and <a href=\"https://web2day.co/2016/evenements/bien-preparer-migration-vers-angular-2/\">Web2day</a>"
+      ]
+    },
+    {
+      "company": "Sopra - Nantes, France",
+      "position": "IT Software Engineer",
+      "startDate": "2011-03-01",
+      "endDate": "2015-03-01",
+      "highlights": [
+        "Lead developer on application for the DGDDI (Department of Customs) called <b>NSTI</b> based on legacy technologies (COBOL, GCOS7, C, ASP.NET) and J2EE technologies. The application had to strictly follow rules provided by the European Commission",
+        "Lead developer on internal applications deployed in the whole company and used by managers. Technologies used: PHP and J2EE",
+        "Developer in the modernization pole on legacy application, using Bluage."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Avignon",
+      "area": "Computer Science and Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2005-09-01",
+      "endDate": "2007-06-01"
+    },
+    {
+      "institution": "University of Languedoc (Montpellier II)",
+      "area": "Computer Science",
+      "studyType": "Bachelor & Master",
+      "startDate": "2007-09-01",
+      "endDate": "2010-06-01"
+    },
+    {
+      "institution": "University of Nantes",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2010-09-01",
+      "endDate": "2011-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": ["Javascript", "React", "Typescript", "Angular", "NodeJS"]
+    },
+    {
+      "name": "Development",
+      "keywords": ["Java", "Kotlin", "Spring", "Go"]
+    },
+    {
+      "name": "Other",
+      "keywords": ["Docker", "Git", "GraphQL"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": ["Football", "Cycling", "Tennis"]
+    },
+    {
+      "name": "Mangas",
+      "keywords": []
+    },
+    {
+      "name": "Travels",
+      "keywords": ["Treks", "Tourism"]
+    }
+  ]
+}
