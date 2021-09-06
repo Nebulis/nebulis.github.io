@@ -10,7 +10,7 @@ interface WorkExperience {
   highlights: string[];
 }
 
-defineProps<{ workExperiences: WorkExperience[]; title: "string"; lang: "fr" | "en" }>();
+defineProps<{ workExperiences: WorkExperience[]; title: string; lang: "fr" | "en" }>();
 </script>
 
 <template>

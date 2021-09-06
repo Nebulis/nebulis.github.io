@@ -8,7 +8,7 @@ interface Skill {
   keywords: string[];
 }
 
-defineProps<{ skills: Skill[]; title: "string" }>();
+defineProps<{ skills: Skill[]; title: string }>();
 </script>
 
 <template>

@@ -5,10 +5,10 @@ import Pill from "./pill.vue";
 import ListGroupItem from "./list-group-item.vue";
 interface Language {
   language: string;
-  fluency: string[];
+  fluency: string;
 }
 
-defineProps<{ languages: Language[]; title: "string" }>();
+defineProps<{ languages: Language[]; title: string }>();
 </script>
 
 <template>

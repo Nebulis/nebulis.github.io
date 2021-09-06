@@ -8,7 +8,7 @@ interface Interest {
   keywords: string[];
 }
 
-defineProps<{ interests: Interest[]; title: "string" }>();
+defineProps<{ interests: Interest[]; title: string }>();
 </script>
 
 <template>

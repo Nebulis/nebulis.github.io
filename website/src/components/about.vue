@@ -2,7 +2,7 @@
 import { defineProps } from "vue";
 import SectionTitle from "./section-title.vue";
 
-defineProps<{ summary: string; title: "string" }>();
+defineProps<{ summary: string; title: string }>();
 </script>
 
 <template>

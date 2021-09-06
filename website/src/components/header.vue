@@ -11,7 +11,7 @@ defineProps<{ name: string; label: string }>();
   <div id="photo-header" class="text-center">
     <div class="photo-container">
       <div id="photo" class="w-40 h-40 p-1 inline-block rounded-full transform -translate-y-1/2">
-        <img src="../assets/me.png" alt="avatar" class="rounded-full" />
+        <img src="../assets/me.jpg" alt="avatar" class="rounded-full" />
       </div>
     </div>
     <div id="text-header">

@@ -9,7 +9,7 @@ interface Education {
   endDate: string;
 }
 
-defineProps<{ education: Education[]; title: "string" }>();
+defineProps<{ education: Education[]; title: string }>();
 </script>
 
 <template>
