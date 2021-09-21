@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-section-title p-1 whitespace-nowrap overflow-hidden text-lg font-semibold"><slot></slot></div>
+  <div class="skill-section-title whitespace-nowrap overflow-hidden text-md pt-1 font-semibold"><slot></slot></div>
 </template>
 
 <script setup></script>

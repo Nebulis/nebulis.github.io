@@ -14,33 +14,29 @@ defineProps<{ networks: Network[]; email: string; phone: string }>();
 
 <template>
   <SectionTitle><i class="fa fa-bullseye"></i> Contact</SectionTitle>
-  <div class="contact-item flex">
-    <div class="icon"><span class="fa fa-phone fa-fw"></span></div>
-    <div class="title flex items-center ml-3">{{ phone }}</div>
-  </div>
-  <div class="contact-item flex">
-    <div class="icon"><span class="fa fa-envelope fa-fw"></span></div>
-    <div class="title flex items-center ml-3">
-      <a v-bind:href="'mailto:' + email" target="_blank">{{ email }}</a>
+  <div class="flex flex-wrap flex-col sm:flex-row lg:flex-col contact-item-container">
+    <div class="contact-item flex w-100 sm:w-1/2 md:w-1/3 lg:w-100">
+      <div class="icon"><span class="fa fa-phone fa-fw"></span></div>
+      <div class="title flex items-center ml-3">{{ phone }}</div>
     </div>
-  </div>
-  <div class="contact-item flex">
-    <div class="icon"><span class="fa fa-fw fa-globe-europe"></span></div>
-    <div class="title flex items-center ml-3">
-      <a href="https://magicoftravels.com" target="_blank">MagicOfTravels</a>
+    <div class="contact-item flex w-100 sm:w-1/2 md:w-1/3 lg:w-100">
+      <div class="icon"><span class="fa fa-envelope fa-fw"></span></div>
+      <div class="title flex items-center ml-3">
+        <a v-bind:href="'mailto:' + email" target="_blank">{{ email }}</a>
+      </div>
     </div>
-  </div>
-  <div v-for="network in networks" class="contact-item flex">
-    <div class="icon"><span v-bind:class="'fa fa-fw fa-' + network.name"></span></div>
-    <div class="title flex items-center ml-3">
-      <a v-bind:href="network.url" target="_blank">{{ network.username }}</a>
+    <div class="contact-item flex w-100 sm:w-1/2 md:w-1/3 lg:w-100">
+      <div class="icon"><span class="fa fa-fw fa-globe-europe"></span></div>
+      <div class="title flex items-center ml-3">
+        <a href="https://magicoftravels.com" target="_blank">MagicOfTravels</a>
+      </div>
     </div>
-    <!--    <div class="flex justify-center flex-col ml-3">-->
-    <!--      <div class="title capitalize">{{ network.name }}</div>-->
-    <!--      <div class="description">-->
-    <!--        <a v-bind:href="network.url" target="_blank">{{ network.username }}</a>-->
-    <!--      </div>-->
-    <!--    </div>-->
+    <div v-for="network in networks" class="contact-item flex w-100 sm:w-1/2 md:w-1/3 lg:w-100">
+      <div class="icon"><span v-bind:class="'fa fa-fw fa-' + network.name"></span></div>
+      <div class="title flex items-center ml-3">
+        <a v-bind:href="network.url" target="_blank">{{ network.username }}</a>
+      </div>
+    </div>
   </div>
 </template>
 

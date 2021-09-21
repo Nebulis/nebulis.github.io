@@ -1,5 +1,5 @@
 <template>
-  <h2 class="text-xl font-bold uppercase mb-3 mt-3"><slot></slot></h2>
+  <h2 class="text-xl font-bold uppercase mb-2 mt-3"><slot></slot></h2>
 </template>
 
 <script setup></script>
