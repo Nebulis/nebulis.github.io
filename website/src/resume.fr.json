@@ -33,7 +33,7 @@
         "Responsable du développement, des choix techniques et stratégiques, de l'établissement de normes de qualité (CI/CD, code, revues, etc.), du recrutement, du partage avec la communauté, etc. au sein de l'équipe DLT (Distributed Ledger Technology)",
         "Nous avons créé <a href=\"https://openattestation.com/\">OpenAttestation</a> un framework open source pour créer des certificats vérifiables (verifiable document) et des enregistrements transférables (Transferable Records), permettant de prouver cryptographiquement l'origine de l'émetteur et le transfert entre plusieurs parties.",
         "En utilisant OpenAttestation, notre équipe a créé :<br/>- <a href=\"https://opencerts.io/\">OpenCerts</a> (PST award): Certificats numériques pour les étudiants (diplômes).<br/>- <a href=\"https://www.healthcerts.gov.sg/\">HealthCerts</a>: Certificats numériques pour les voyageurs<br/>- <a href=\"https://verify.gov.sg/\">Verify</a>: Plateforme pour vérifier les certificats émis par le gouvernement singapourien<br/>- <a href=\"https://www.tradetrust.io/\">TradeTrust</a> (PST award): Plateforme pour les documents commerciaux numériques<br/> - <a href=\"https://www.notarise.gov.sg/\">Notarise</a>: Portail délivrant des certificats liés à la santé",
-        "Technologies utilisées: Ethereum, Solidity, Javascript, Typescript, React, and AWS"
+        "Technologies utilisées: Ethereum, Solidity, Javascript, Typescript, React, et AWS"
       ]
     },
     {
@@ -58,7 +58,7 @@
         "<b>Sparklane</b> est une startup française qui recherche des informations et les rend facilement disponibles pour les vendeurs et les marketeurs. Technologies utilisées : Angular 1, ElasticSearch, Docker, Groovy, Java 8.",
         "<b>GE Money Bank</b> est l'unité de services bancaires de General Electric. Notre équipe a développé une application Web afin de réduire le temps de validation ou de rejet des prêts. Nous avons travaillé directement avec les analystes pour comprendre leurs besoins et la façon dont ils travaillaient afin d'améliorer leur productivité. Technologies utilisées : React, Docker, Java 7.",
         "<b>CACEIS</b> est une banque de gestion d'actifs spécialisée dans les fonctions post-marché. Notre équipe a développé une application mobile, Olis Mobile, qui a remporté un prix de l'innovation décerné par Global Custodian. Technologies utilisées : Angular, Ionic 2",
-        "Animation de <b>formations</b> sur Javascript, Typescript, Angular (1&2), React and NodeJS",
+        "Animation de <b>formations</b> sur Javascript, Typescript, Angular (1&2), React et NodeJS",
         "Speaker à <a href=\"http://nantesjs.org/\">NantesJS meetup</a> et <a href=\"https://web2day.co/2016/evenements/bien-preparer-migration-vers-angular-2/\">Web2day</a>"
       ]
     },
@@ -76,7 +76,7 @@
   ],
   "education": [
     {
-      "institution": "Université of Avignon",
+      "institution": "Université d'Avignon",
       "area": "Informatique et Mathématiques",
       "studyType": "Licence",
       "startDate": "2005-09-01",

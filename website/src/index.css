@@ -14,3 +14,20 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
+@media print {
+  body {
+    background-color: transparent;
+  }
+  .overall-container {
+    /*without this, page break doesnt work ..*/
+    /*https://stackoverflow.com/questions/34534231/page-break-insideavoid-not-working*/
+    display: block;
+  }
+  .language-container {
+    display: none;
+  }
+  .right-container .box, .job-highlight {
+    page-break-inside: avoid;
+  }
+}

@@ -11,7 +11,6 @@ import Header from "./components/header.vue";
 import SectionTitle from "./components/section-title.vue";
 import SkillSectionTitle from "./components/skill-section-title.vue";
 import Box from "./components/box.vue";
-import ListGroupItem from "./list-group-item.vue";
 import { ref, watch } from "vue";
 import resumeEn from "./resume.en.json";
 import resumeFr from "./resume.fr.json";
@@ -43,14 +42,14 @@ const changeLanguage = () => {
 
 <template>
   <div class="container mx-auto bg-white mb-10 px-4 mt-20 relative">
-    <span class="absolute cursor-pointer top-2 right-2">
+    <span class="language-container absolute cursor-pointer top-2 right-2">
       <img src="./assets/french-flag.svg" alt="Click to change the resume language to french" class="w-6" v-on:click="changeLanguage" v-if="lang === 'en'" />
       <img src="./assets/uk-flag.svg" alt="Click to change the resume language to english" class="w-6" v-on:click="changeLanguage" v-else />
     </span>
     <div class="-mx-4">
       <Header v-bind:name="resume.basics.name" v-bind:label="resume.basics.label" />
     </div>
-    <div class="-mx-4n flex flex-col lg:flex-row">
+    <div class="overall-container -mx-4n flex flex-col lg:flex-row">
       <div class="w-100 lg:w-7/12 px-4">
         <Box>
           <About v-bind:summary="resume.basics.summary" v-bind:title="lang === 'en' ? 'About' : 'À propos'" />
@@ -59,7 +58,7 @@ const changeLanguage = () => {
           <WorkExperiences v-bind:workExperiences="resume.work" v-bind:lang="lang" v-bind:title="lang === 'en' ? 'WORK EXPERIENCE' : 'EXPÉRIENCE PROFESSIONNELLE'" />
         </Box>
       </div>
-      <Box class="w-100 lg:w-5/12 px-4">
+      <Box class="w-100 lg:w-5/12 px-4 right-container">
         <Box>
           <Contact v-bind:email="resume.basics.email" v-bind:phone="resume.basics.phone" v-bind:networks="resume.basics.networks" />
         </Box>

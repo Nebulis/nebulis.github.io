@@ -30,8 +30,8 @@ defineProps<{ workExperiences: WorkExperience[]; title: string; lang: "fr" | "en
         <div class="profession text-xl font-bold">{{ job.position }}</div>
         <div class="description">
           <div class="highlights py-1 font-bold">Highlights</div>
-          <ul class="list-group">
-            <ListGroupItem v-for="highlight in job.highlights" v-html="highlight" />
+          <ul class="list-group relative">
+            <ListGroupItem v-for="highlight in job.highlights" v-html="highlight" class="job-highlight relative" />
           </ul>
         </div>
       </div>
